@@ -1,0 +1,205 @@
+{
+  "coverage": "United States",
+  "schema": [],
+  "contains_features": true,
+  "geom_enabled": true,
+  "size": "",
+  "license": "undefined",
+  "attribution": "US Department of Homeland Security",
+  "type": "point",
+  "feature_count": 1,
+  "data_freshness": "monthly",
+  "geometry": null,
+  "contains_context": true,
+  "is_featured": true,
+  "properties_schema": {
+    "properties": {
+      "address": {
+        "title": "Address",
+        "description": "The address",
+        "type": "STRING",
+        "example": "123 Street, San Francisco, CA"
+      },
+      "city": {
+        "title": "City",
+        "description": "The city",
+        "type": "STRING",
+        "example": "San Francisco"
+      },
+      "cap_factor": {
+        "title": "Cap Factor",
+        "description": "The Cap Factor",
+        "type": "STRING",
+        "example": ""
+      },
+      "gen_units": {
+        "title": "Gen Units",
+        "description": "Gen Units",
+        "type": "STRING",
+        "example": ""
+      },
+      "coal_used": {
+        "title": "Coal Used",
+        "description": "Coal Used",
+        "type": "STRING",
+        "example": ""
+      },
+      "country": {
+        "title": "Country",
+        "description": "Country",
+        "type": "STRING",
+        "example": ""
+      },
+      "county": {
+        "title": "County",
+        "description": "County",
+        "type": "STRING",
+        "example": ""
+      },
+      "lines": {
+        "title": "Lines",
+        "description": "Lines",
+        "type": "STRING",
+        "example": ""
+      },
+      "naics_code": {
+        "title": "NAICS Code",
+        "description": "NAICS Code",
+        "type": "STRING",
+        "example": ""
+      },
+      "naics_desc": {
+        "title": "NAICS Description",
+        "description": "NAICS Description",
+        "type": "STRING",
+        "example": ""
+      },
+      "next_gen": {
+        "title": "Next Gen",
+        "description": "Next Gen",
+        "type": "STRING",
+        "example": ""
+      },
+      "name": {
+        "title": "Name",
+        "description": "Power Plant Name",
+        "type": "STRING",
+        "example": ""
+      },
+      "ngas_used": {
+        "title": "Gas Used",
+        "description": "Gas Used",
+        "type": "STRING",
+        "example": ""
+      },
+      "oil_used": {
+        "title": "Oil Used",
+        "description": "Oil Used",
+        "type": "STRING",
+        "example": ""
+      },
+      "oper_cap": {
+        "title": "Operation Capacity",
+        "description": "Operation Capacity",
+        "type": "STRING",
+        "example": ""
+      },
+      "operat_id": {
+        "title": "Operation ID",
+        "description": "Operation ID",
+        "type": "STRING",
+        "example": ""
+      },
+      "operator": {
+        "title": "Operator",
+        "description": "Operator",
+        "type": "STRING",
+        "example": ""
+      },
+      "plan_cap": {
+        "title": "Plan Cap",
+        "description": "Plan Cap",
+        "type": "STRING",
+        "example": ""
+      },
+      "plant_code": {
+        "title": "Plant Code",
+        "description": "Plant Code",
+        "type": "STRING",
+        "example": ""
+      },
+      "prim_fuel": {
+        "title": "Primary Fuel",
+        "description": "Primary Fuel",
+        "type": "STRING",
+        "example": ""
+      },
+      "retir_unit": {
+        "title": "Retir Unit",
+        "description": "Retir Unit",
+        "type": "STRING",
+        "example": ""
+      },
+      "retire_cap": {
+        "title": "Retir Cap",
+        "description": "Retir Cap",
+        "type": "STRING",
+        "example": ""
+      },
+      "sec_fuel": {
+        "title": "Sec Fuel",
+        "description": "Sec Fuel",
+        "type": "STRING",
+        "example": ""
+      },
+      "source": {
+        "title": "Source",
+        "description": "Source",
+        "type": "STRING",
+        "example": ""
+      },
+      "state": {
+        "title": "State",
+        "description": "State",
+        "type": "STRING",
+        "example": ""
+      },
+      "source_lat": {
+        "title": "Source Lat",
+        "description": "Source Lat",
+        "type": "STRING",
+        "example": ""
+      },
+      "sub_1": {
+        "title": "Sub 1",
+        "description": "Sub 1",
+        "type": "STRING",
+        "example": ""
+      },
+      "sourcedate": {
+        "title": "Source Date",
+        "description": "Source Date",
+        "type": "STRING",
+        "example": ""
+      },
+      "status": {
+        "title": "Status",
+        "description": "Status",
+        "type": "STRING",
+        "example": ""
+      },
+      "telephone": {
+        "title": "Telephone Number",
+        "description": "Telephone Number",
+        "type": "STRING",
+        "example": ""
+      },
+      "website": {
+        "title": "Website",
+        "description": "Website",
+        "type": "STRING",
+        "example": ""
+      }
+    }
+  }
+}

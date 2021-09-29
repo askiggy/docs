@@ -1,0 +1,11 @@
+{
+  "example": {
+    "buffered-point": {
+      "params": {
+        "latitude": 33.5155,
+        "longitude": -112.1287,
+        "radius":  20000
+      }
+    }
+  }
+}

@@ -1,2 +1,1 @@
-# docs
-Iggy Docs
+# Iggy Docs
