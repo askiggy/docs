@@ -1,0 +1,25 @@
+{
+  "name": "@askiggy/docs",
+  "version": "0.1.0-canary.1",
+  "description": "Iggy docs content",
+  "license": "UNLICENSED",
+  "author": "Iggy <help@askiggy.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/askiggy/docs.git"
+  },
+  "files": [
+    "datasets", "guides", "home", "open-data", "pages", "reference"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "package": "npm pack --pack-destination ./dist",
+    "publish": "yarn rollup; cd dist; npm publish; cd .."
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
