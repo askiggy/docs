@@ -1,6 +1,6 @@
 {
   "name": "@askiggy/docs",
-  "version": "0.1.0-canary.4",
+  "version": "0.1.0-canary.5",
   "description": "Iggy Docs content",
   "license": "UNLICENSED",
   "author": "Iggy <help@askiggy.com>",
@@ -15,7 +15,8 @@
     "home",
     "open-data",
     "pages",
-    "reference"
+    "reference",
+    "ignore.json"
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
