@@ -1,6 +1,6 @@
 {
   "name": "@askiggy/docs",
-  "version": "0.1.0-canary.6",
+  "version": "0.1.0-canary.7",
   "description": "Iggy Docs content",
   "license": "UNLICENSED",
   "author": "Iggy <help@askiggy.com>",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "package": "rollup -c",
-    "publish": "yarn rollup; cd dist; npm publish; cd .."
+    "publish": "yarn rollup -c; cd dist; npm publish; cd .."
   },
   "devDependencies": {
     "rollup": "^2.56.3",
