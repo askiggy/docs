@@ -1,6 +1,6 @@
 {
   "name": "@askiggy/docs",
-  "version": "0.1.0-canary.2",
+  "version": "0.1.0-canary.3",
   "description": "Iggy Docs content",
   "license": "UNLICENSED",
   "author": "Iggy <help@askiggy.com>",
@@ -20,8 +20,6 @@
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
-    "package": "npm pack --pack-destination ./dist",
-    "publish": "npm publish",
     "rollup": "rollup -c",
     "rollup:publish": "yarn rollup; cd dist; npm publish; cd .."
   },
