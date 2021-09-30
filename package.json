@@ -23,7 +23,7 @@
   },
   "scripts": {
     "package": "rollup -c",
-    "publish": "yarn rollup -c; cd dist; npm publish; cd .."
+    "publish": "yarn package; cd dist; npm publish; cd .."
   },
   "devDependencies": {
     "rollup": "^2.56.3",
