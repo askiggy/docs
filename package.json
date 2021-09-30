@@ -9,6 +9,7 @@
     "url": "https://github.com/askiggy/docs.git"
   },
   "files": [
+    "categories",
     "datasets",
     "guides",
     "home",
