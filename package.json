@@ -1,7 +1,7 @@
 {
   "name": "@askiggy/docs",
-  "version": "0.1.0-canary.1",
-  "description": "Iggy docs content",
+  "version": "0.1.0-canary.2",
+  "description": "Iggy Docs content",
   "license": "UNLICENSED",
   "author": "Iggy <help@askiggy.com>",
   "repository": {
@@ -9,17 +9,26 @@
     "url": "https://github.com/askiggy/docs.git"
   },
   "files": [
-    "datasets", "guides", "home", "open-data", "pages", "reference"
+    "datasets",
+    "guides",
+    "home",
+    "open-data",
+    "pages",
+    "reference"
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "package": "npm pack --pack-destination ./dist",
-    "publish": "yarn rollup; cd dist; npm publish; cd .."
-  },
-  "dependencies": {
+    "publish": "npm publish",
+    "rollup": "rollup -c",
+    "rollup:publish": "yarn rollup; cd dist; npm publish; cd .."
   },
   "devDependencies": {
+    "rollup": "^2.56.3",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
   }
 }
