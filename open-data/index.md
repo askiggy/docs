@@ -4,4 +4,4 @@ title: 'Iggy Open Data'
 label: 'Open Data'
 ---
 
-Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.
+We’ve done the drudgework of sourcing, interpreting, and cleaning geographic datasets. It should be easier for data scientists and machine learning engineers to access these data. That’s why we’re releasing ready-to-ingest versions of these datasets so that you can get to work faster.

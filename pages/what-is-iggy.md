@@ -1,6 +1,7 @@
 ---
 order: 1
 title: What is Iggy?
+published: false
 ---
 
 Iggy makes location data accessible to developers. Our tools allow you to ask questions about locations and their context in the broader world. It is the first developer toolkit that simplifies access to complex location data. Our customers are using Iggy to build location features faster and expand what's possible with location data. Easily implement data as varied as weather, environmental risk and POIs into your product, tools and apps.

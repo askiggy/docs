@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 order: 3
+published: false
 ---
 
 # What is Iggy?
