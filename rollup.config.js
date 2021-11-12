@@ -1,15 +1,13 @@
-import babel from '@rollup/plugin-babel';
 import del from 'rollup-plugin-delete';
 import copy from 'rollup-plugin-copy';
 import pkg from './package.json';
 
 const config = {
   input: pkg.source,
+  output: [
+    { file: pkg.module, format: 'esm' }
+  ],
   plugins: [
-    babel({
-      exclude: 'node_modules/**',
-      babelHelpers: 'bundled'
-    }),,
     del({ targets: ['dist/*'] }),
     copy({
       targets: [

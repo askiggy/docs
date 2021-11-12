@@ -1,6 +1,6 @@
 {
   "name": "@askiggy/docs",
-  "version": "0.1.0-canary.13",
+  "version": "0.1.0-canary.15",
   "description": "Iggy Docs content",
   "license": "UNLICENSED",
   "author": "Iggy <help@askiggy.com>",
@@ -9,6 +9,7 @@
     "url": "https://github.com/askiggy/docs.git"
   },
   "source": "index.js",
+  "module": "dist/index.esm.js",
   "files": [
     "categories",
     "datasets",
