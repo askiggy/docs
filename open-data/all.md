@@ -1,4 +1,5 @@
 ---
-title: Explore All Datasets
+title: All Datasets
 url: /open-data/datasets
+order: 0
 ---
