@@ -1,4 +1,0 @@
----
-id: 'categories'
-title: 'Categories'
----

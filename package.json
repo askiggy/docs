@@ -1,6 +1,6 @@
 {
   "name": "@askiggy/docs",
-  "version": "0.1.0-canary.15",
+  "version": "0.1.0-canary.16",
   "description": "Iggy Docs content",
   "license": "UNLICENSED",
   "author": "Iggy <help@askiggy.com>",
@@ -24,8 +24,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "package": "rollup -c",
-    "publish": "yarn package; cd dist; npm publish --access=public; cd .."
+    "rollup": "rollup -c",
+    "rollup:publish": "yarn package; cd dist; npm publish --access=public; cd .."
   },
   "devDependencies": {
     "rollup": "^2.56.3",
