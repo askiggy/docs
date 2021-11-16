@@ -27,6 +27,6 @@ jobs:
           source-directory: 'dist'
           destination-github-username: 'askiggy'
           destination-repository-name: 'iggy-docs'
-          user-email: ben@askiggy.com
+          user-email: mick+iggybot@askiggy.com
           target-branch: dev
           target-directory: 'content'
