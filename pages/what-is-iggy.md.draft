@@ -1,20 +1,18 @@
 ---
 order: 1
 title: What is Iggy?
-published: false
 ---
 
 Iggy is a data enrichment platform that provides location features to better understand our world. We source, clean, and normalize location data to produce a features dataset so that you can spend more time modeling and less time preparing data.
 
-## What data does Iggy have?
+# What data does Iggy have?
 
 We have over 100 different datasets for everything from hospitals and bars to current wildfires and census demographic data data.
 
-## Where does Iggy get its Datasets?
+# Where does Iggy get its Datasets?
 
 Many Datasets are sourced from government agencies, open data communities, or vendors and are documented as such. Other Datasets are created in-house by the Iggy team.
 
-
-## How do I get help using Iggy
+# How do I get help using Iggy
 
 Email us at help@askiggy.com with any questions you may have. Please include as much information as you can about your project and where you’re running into issues, as well as code samples where possible.
