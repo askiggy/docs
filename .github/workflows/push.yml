@@ -3,7 +3,7 @@ name: 'Push'
 on:
   push:
     branches:
-      - test
+      - dev
 
 jobs:
   publish-gpr:
@@ -28,5 +28,5 @@ jobs:
           destination-github-username: 'askiggy'
           destination-repository-name: 'iggy-docs'
           user-email: ben@askiggy.com
-          target-branch: test
+          target-branch: dev
           target-directory: 'content'
