@@ -6,7 +6,7 @@ on:
       - dev
 
 jobs:
-  publish-gpr:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,7 +15,7 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org
       - run: yarn install
-      - run: yarn rollup:publish
+      - run: yarn rollup
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
