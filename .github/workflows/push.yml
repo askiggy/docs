@@ -6,7 +6,7 @@ on:
       - dev
 
 jobs:
-  publish:
+  push_updates:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,10 +17,10 @@ jobs:
       - name: Package contents
         run: yarn rollup
 
-      - name: Publish to Iggy Docs
+      - name: Push to askiggy/iggy-docs
         uses: cpina/github-action-push-to-another-repository@main
         env:
-          API_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-directory: 'dist'
           destination-github-username: 'askiggy'
