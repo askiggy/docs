@@ -10,23 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org
-      - run: yarn install
-      - run: yarn rollup
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Package contents
+        run: yarn rollup
 
       - name: Publish to Iggy Docs
         uses: cpina/github-action-push-to-another-repository@main
         env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+          API_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
         with:
           source-directory: 'dist'
           destination-github-username: 'askiggy'
           destination-repository-name: 'iggy-docs'
           user-email: mick+iggybot@askiggy.com
           target-branch: dev
-          target-directory: 'content'
+          target-directory: docs
