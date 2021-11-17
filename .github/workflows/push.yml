@@ -3,7 +3,7 @@ name: 'Push'
 on:
   push:
     branches:
-      - dev
+      - main
 
 jobs:
   push_updates:
@@ -26,5 +26,5 @@ jobs:
           destination-github-username: 'askiggy'
           destination-repository-name: 'iggy-docs'
           user-email: mick+iggybot@askiggy.com
-          target-branch: dev
+          target-branch: main
           target-directory: docs
