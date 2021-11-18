@@ -164,7 +164,7 @@ fueling_station
 * `specialty_food_retail`
   * Stores providing specialized food, including bakeries, confectionary, fish and seafood markets, produce markets, meat markets, and other specialty food
   * Examples: Sage Baking Company, Dorothy's Candies, Snow Creek Meat Processing, Seafood America, Fiesta Empanada
-* specialty_retail
+* `specialty_retail`
   * Specialized retail including book stores and florists
   * Examples: Swan's Fine Books, Lenora's Flowers and Gifts, Barnes & Noble
 * `sports_games_or_other_amusement_recreation`
@@ -285,7 +285,7 @@ fueling_station
   - Mixed mode and other urban transit stops and administration
   - Examples: Sunset Empire Transportation District Thousand Trail, Tri Rail Sheridan Street Station, Baltimore Water Taxi Canton
 
-# Aggregations & Normalizations
+# Aggregations and Normalizations
 
 Given a boundary (like a zip code) and a data source (like POIs), Iggy produces features by running an **aggregation** of the data intersecting the boundary. **Aggregations** range from simple (i.e. counts of items intersecting a boundary) to more complex spatial functions (i.e. square km in the intersection between a boundary and a data source like lakes).
 
