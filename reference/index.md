@@ -1,5 +1,5 @@
 ---
 title: Reference
-displayAs: 'text'
+display_as: 'text'
 order: 1
 ---
