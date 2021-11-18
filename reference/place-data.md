@@ -319,7 +319,7 @@ The following is a list of the various aggregations and normalizations that are 
 
 In general, features are named using the following convention:
 
-```python
+```
 {data_source}[_{data attribute}]_{aggregation}[_{normalization}]
 ```
 
