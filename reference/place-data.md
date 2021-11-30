@@ -146,12 +146,27 @@ fueling_station
 * `gambling`
   * Casinos and other gambling locations
   * Examples: Debbie's Slots Lounge, Texas Poker Supply, Papa Ray's Sports Bar, Legendary Waters Resort *& Casino
+* `games_and_amusement_recreation`
+  * Locations for amusement and recreation, including arcades, amusement parks, equestrian, and bowling alleys
+  * Examples: West End Bowling & Arcade, ESCAPE Alaska, Silver Wind Stables
+* `golf_and_country_club_recreation`
+  * Locations for golf courses and country clubs
+  * Examples: Belvedere Golf Club, Indian Hills Country Club, Creekside Mini Golf
 * `grocery_store`
   * Grocery stores and supermarkets
   * Examples: Pathmark, Country Grocery Store, Nick's Supermarket
+* `gyms_and_fitness_recreation`
+  * Gyms and fitness centers
+  * Examples: Orangetheory Fitness, Jazzercise, Yoga Nest Venice
 * `hazardous_waste_disposal_service`
   * Services for managing hazardous waste, including septic tank related services, hazardous waste treatment, and disposal
   * Examples: Carlisle Trash Collection, Heartland Dredging, Dixie Dumpsters
+* `marinas_and_yacht_clubs`
+  * Marinas and yacht clubs
+  * Examples: Sugartree Marina, Vermilion Yacht Club, Johnny's Marina & RV Park
+* `martial_arts_and_other_sports_instruction`
+  * Businesses that provide sports instruction including martial arts
+  * Examples: Excel Taekwondo Academy, React Elite Cheer and Tumble, Goldfish Swim School
 * `recycling_and_salvage`
   * Recycling collection and processing centers, and auto or metal salvage
   * Examples: Green Recovery Recycling, Fulton Auto Salvage, Montgomery County Solid Waste District
@@ -161,15 +176,18 @@ fueling_station
 * `sightseeing_transportation`
   * Businesses that provide transportation for land or water  *based sightseeing
   * Examples: Beasley's Fishing Charters, Old Town Charters, Private Yacht Charters Florida
+* `skiing_facilities`
+  * Ski resorts, ski lifts, and ski parks
+  * Examples: Snow Creek Ski Area, Tri Town Ski Village, Springhill Winter Park, Mogul Buster Ski & Snowboard School
 * `specialty_food_retail`
   * Stores providing specialized food, including bakeries, confectionary, fish and seafood markets, produce markets, meat markets, and other specialty food
   * Examples: Sage Baking Company, Dorothy's Candies, Snow Creek Meat Processing, Seafood America, Fiesta Empanada
 * `specialty_retail`
   * Specialized retail including book stores and florists
   * Examples: Swan's Fine Books, Lenora's Flowers and Gifts, Barnes & Noble
-* `sports_games_or_other_amusement_recreation`
-  * Locations for physical recreation, including bowling, fitness centers/gyms, golf courses, marinas, skiing facilities, and sports instruction
-  * Examples: Mary T Meagher Aquatic Center, TD Bank Sports Center, Sky Sox Baseball Club, Xtreme Paintball Field
+* `spectator_sports_arenas_and_clubs`
+  * Sports clubs and spectator sports venues, including racetracks
+  * Examples: Saratoga Woods Swim Club, Charles Watson Stadium, Atlanta Dragway
 * `waste_disposal_service`
   * General waste disposal services, not solely focused on hazardous waste or recycling
   * Examples: Junk King Reno, Ron's Tree Removal, Bobcat Disposal
