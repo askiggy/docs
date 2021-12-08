@@ -102,17 +102,28 @@ Includes attributes dealing with housing units type (e.g. `housing_units_boat_rv
   * `is_river`
   * `is_lake`
 
-### `park`
+### `protected_area`
 
-`park` data attributes indicate the type of park.
+Our `protected_area` data includes parks, conservation areas, and other protected areas as designated by [USGS](https://www.usgs.gov/programs/gap-analysis-project/science/protected-areas).
 
-* Type of park
+`protected_area` data attributes indicate the type of protected area:
+
+* Type of protected area
+  * `is_park`
   * `is_local_park`
   * `is_state_park`
   * `is_private_park`
   * `is_national_park`
   * `is_national_forest`
   * `is_public_park`
+  * `is_conservation_area`
+  * `is_research_or_education_area`
+  * `is_historic_or_cultural_area`
+  * `is_wilderness`
+  * `is_recreation_area`
+  * `is_scenic_area`
+
+Note that a protected area may have a value of 1 for more than one attribute. For example, a state park would have `is_park=1`, `is_state_park=1`, and `is_public_park=1`.
 
 The full set of underlying data sources and attributes is detailed in the [Iggy Data Dictionary](/reference/data-dictionary).
 
