@@ -29,23 +29,21 @@ If you were to visualize `population_qk_isochrone_walk_10m` on a map, you’d no
 
 ![image.png](image.png)
 
-
 # Working with IggyEnrich
 
 ## Why don't I see latitude and longitude in the dataset?
 
-Our dataset represents places in terms of boundaries – from quadkeys (most fine-grained) to counties (coarse-grained). Each of the boundary tables that comes in our dataset has a `geometry` column which defines the location (polygon) of each row.
+Our dataset represents places in terms of _boundaries_ – from quadkeys (most fine-grained) to counties (coarse-grained). Each of the boundary tables that comes in our dataset has a `geometry` column which defines the location _(polygon)_ of each row.
 
-If you want to use Iggy to create features for an input point (latitude/longitude), one way to do this is using the IggyEnrich python module. The primary use of the IggyEnrich class within this module is
+If you want to use Iggy to create features for an input point (latitude/longitude), one way to do this is using the [IggyEnrich python](https://www.github.com/askiggy/iggy-enrich-python) module. The primary use of the IggyEnrich class within this module is to enrich a user’s dataframe of points by mapping from input _point_ (latitude/longitude) to the enclosing boundaries in order to retrieve the relevant features.
+
+So let’s say you have a data frame containing points, and want to append a bunch of Iggy columns describing the vicinity of each point. Your data frame (`df` in the line of code provided below) needs to have a latitude and longitude column specified:
 
 ```
 iggy.enrich_df(df, latitude_col="latitude", longitude_col="longitude")
 ```
 
-The primary use of the `IggyEnrich` class is to enrich a user’s dataframe of points. So let’s say you have a data frame containing properties, and want to append a bunch of Iggy columns describing the vicinity of each property. Your data frame (`df` in the line of code provided above) is the thing that needs to have the `latitude_col` and `longitude_col`.
-
-In the background, the `IggyEnrich` class joins the latitude and longitude from the user’s dataframe to the relevant quadkey by using the `pyquadkey2` library’s `from_geo` function, which takes a `latitude`, `longitude`, and `zoom` level as input and returns the quadkey in which that latitude and longitude falls for the given zoom.
-
+Behind the scenes, this code appends columns of Iggy features to `df` by looking up the quadkey associated with each row’s “latitude” and “longitude”, and then mapping from that quadkey to the desired boundary (e.g. CBG or zip code).
 
 [Learn more about IggyEnrich](https://github.com/askiggy/iggy-enrich-python)
 
@@ -73,7 +71,13 @@ create table <project>.<dataset>.<new_table> as (
 
 ## How often is the ACS census data updated?
 
-ACS data is collected over 5 years (2014-2019) and then shared at one point in time.
+The ACS data we provide through Iggy refers to the most recently published 5-year estimates (currently 2014-2019). The data is collected over 5 years. The advantages of [using 5-year estimates rather than 1-year estimates](https://www.census.gov/programs-surveys/acs/guidance/estimates.html) is improved statistical reliability, and coverage of geographic boundaries with small sample sizes.
+
+## Where do household income and hose value data come from?
+
+Household income and house value data come from the ACS.
+
+In most cases we present ACS data using the bins published by the ACS. In some cases we combine multiple bins for consistency. If you need features with more fine-grained bins, [please get in touch!](mailto:help@askiggy.com)
 
 # Support
 
