@@ -1,6 +1,7 @@
 ---
 title: 'Travel & Leisure'
 id: 'travel-leisure'
+description: "Green spaces, museums, coffeeshops and more, Iggy’s got what you need to build rich product experiences to make listings standout."
 datasets:
   - osm_arts_entertainment
   - osm_campgrounds

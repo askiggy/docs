@@ -1,6 +1,7 @@
 ---
 title: 'Insurance'
 id: 'insurance'
+description: "Access data on a range of hazards and risks to evaluate properties and locations easily."
 datasets:
   - noaa_hurricane_energy
   - usgs_fault_lines

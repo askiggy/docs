@@ -1,6 +1,7 @@
 ---
 title: 'Economy'
 id: 'economy'
+description: "From data on banks to US census economic data, access what you need to understand the economic landscape around your locations."
 datasets:
   - osm_banks
   - licensed_pois_banks

@@ -1,6 +1,7 @@
 ---
 title: 'Real Estate'
 id: 'real-estate'
+description: "Use Iggy data to search for nearby businesses, amenities and others that can affect property values and make data-driven decisions about site selection or show users relevant information about the area around a listing."
 datasets:
   - nces_school_catchments
   - wof_boundary
