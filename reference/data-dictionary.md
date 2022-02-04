@@ -1,4 +1,4 @@
 ---
 title: 'Data Dictionary'
-order: 2
+order: 1
 ---

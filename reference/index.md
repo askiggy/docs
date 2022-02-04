@@ -1,5 +1,5 @@
 ---
 title: Reference
-display_as: 'text'
+url: false
 order: 1
 ---

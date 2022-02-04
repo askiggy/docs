@@ -1,7 +1,7 @@
 ---
-title: Iggy Place Data
-label: Place Data
-order: 1
+title: Intro to Iggy Place Data
+label: Intro to Place Data
+order: 0
 ---
 
 This page gives an overview of the model-ready data and features that Iggy provides. This is meant to accompany the [Iggy Data Dictionary](/reference/data-dictionary).

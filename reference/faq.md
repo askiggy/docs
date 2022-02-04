@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
 display_as: 'text'
-order: 1
+order: 10
 ---
 
 # Key Concepts
