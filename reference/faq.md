@@ -21,13 +21,9 @@ We use quadkeys as the smallest unit/boundary of analysis in our sample datasets
 
 ## How are quadkeys and isochrones related?
 
-![image.png](image.png)
-
 We provide features that refer to isochrone boundaries centered on a quadkey. For example, `population_qk_isochrone_walk_10m` gives the population within an area reachable via a 10-minute walk from the center of a quadkey. This feature is computed by aggregating data (population) within a boundary (the 10-minute isochrone), centered on the pertinent quadkey.
 
 If you were to visualize `population_qk_isochrone_walk_10m` on a map, you’d notice that each quadkey/tile has its own feature value, and that the change in feature values between adjacent quadkeys is gradual. This is expected because the isochrone boundaries centered on adjacent quadkeys largely overlap.
-
-![image.png](image.png)
 
 # Working with IggyEnrich
 
@@ -60,6 +56,8 @@ You will need to geocode your addresses (convert them from an address string int
 ## How do I load Iggy data and analyze it directly from BigQuery?
 
 > I tried to load the files as external tables in BigQuery, but the conversion of geo columns, such as `POINT` and `POLYGON`, to Bigquery geography functions is not direct.
+
+You can use the following query to import Iggy data into a BigQuery table:
 
 ```sql
 create table <project>.<dataset>.<new_table> as (
