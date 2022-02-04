@@ -1,6 +1,7 @@
 ---
 title: Intro to Iggy Place Data
 label: Intro to Place Data
+description: "This page gives an overview of the model-ready data and features that Iggy provides. This is meant to accompany the Iggy Data Dictionary."
 order: 0
 ---
 

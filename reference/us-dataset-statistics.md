@@ -1,6 +1,7 @@
 ---
 title: United States Dataset Statistics
 label: 'U.S. Dataset Statistics'
+description: "Summary of statistices around the features we aggregate, where we aggregate, and how we aggregate for the United States region."
 order: 2
 ---
 

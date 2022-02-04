@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
-display_as: 'text'
+description: "Answers to frequently asked questions about how to work with Iggy Data and IggyEnrich."
+label: 'FAQs'
 order: 10
 ---
 
