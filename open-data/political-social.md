@@ -1,6 +1,7 @@
 ---
 title: 'Political/Social'
 id: 'political-social'
+description: "Leverage Iggy data to ask questions about economic development, demographics and communities to better understand our world."
 datasets:
   - acs_*_demographics
   - acs_*_housing

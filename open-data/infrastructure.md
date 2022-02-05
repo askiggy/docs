@@ -1,6 +1,7 @@
 ---
 title: 'Infrastructure'
 id: 'infrastructure'
+description: "Leverage a world of data about the built environment, from power plants to hospitals, in your models, analyses, and more."
 datasets:
   - eia_power_plants
   - hud_public_housing

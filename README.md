@@ -29,8 +29,7 @@ key | type | description
 `description` | `string` | A short description of the content or page.
 `slug` | `string` | The slug used to generate the relative path to the page.
 `order` | `number` | The order this page should appear on the nav list relative to its siblings.
-`display_as` | `'text'`, `'link'`, `'none'` | Controls how the page item appears on the nav list. Defaults to `'link'`.
-`url` | `string` | Define a path or url for this page.
+`url` | `string|boolean` | Define a path or url for this page. Set to `false` to disable linking to the page and only display as a nav header.
 
 ## Special Section Templates
 
