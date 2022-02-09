@@ -33,4 +33,4 @@ jobs:
           user-email: mick+iggybot@askiggy.com
           target-branch: main
           target-directory: docs
-          commit-message: 'Content update from $REPOSITORY_URL@commit'
+          commit-message: 'Content update from ${{ github.repository }}@${{ github.sha }}'
