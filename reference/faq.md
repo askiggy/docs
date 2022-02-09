@@ -21,7 +21,7 @@ We use quadkeys as the smallest unit/boundary of analysis in our sample datasets
 
 ## How are quadkeys and isochrones related?
 
-![Diagram describing the relationship between quadkeys and isochrones](../images/qk-isochrone-diagram.png)
+![Diagram describing the relationship between quadkeys and isochrones](../images/quadkey-isochrone-diagram.png)
 
 We provide features that refer to isochrone boundaries centered on a quadkey. For example, `poi_is_restaurant_count_qk_isochrone_walk_10m` gives the number of restaurants within an area reachable via a 10-minute walk from the center of a quadkey. This feature is computed by aggregating data (restaurants) within a boundary (the 10-minute walk isochrone), centered on the pertinent quadkey. In the diagram above, the value of `poi_is_restaurant_count_qk_isochrone_walk_10m` for quadkey `0231301203133331001` (outlined in yellow)  is `3`, because there are 3 restaurants (blue dots) that fall within the quadkey’s 10-minute walk isochrone (shaded in green).
 

@@ -1,4 +1,4 @@
-name: 'Push'
+name: 'Push Assets'
 
 on:
   push:
@@ -15,9 +15,6 @@ jobs:
 
       - name: Install Dependencies
         run: yarn install
-
-      - name: Package contents
-        run: yarn rollup
 
       - name: Push assets to askiggy/iggy-docs
         uses: cpina/github-action-push-to-another-repository@main
