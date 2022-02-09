@@ -21,9 +21,11 @@ We use quadkeys as the smallest unit/boundary of analysis in our sample datasets
 
 ## How are quadkeys and isochrones related?
 
-We provide features that refer to isochrone boundaries centered on a quadkey. For example, `population_qk_isochrone_walk_10m` gives the population within an area reachable via a 10-minute walk from the center of a quadkey. This feature is computed by aggregating data (population) within a boundary (the 10-minute isochrone), centered on the pertinent quadkey.
+![Diagram describing the relationship between quadkeys and isochrones](../images/qk-isochrone-diagram.png)
 
-If you were to visualize `population_qk_isochrone_walk_10m` on a map, you’d notice that each quadkey/tile has its own feature value, and that the change in feature values between adjacent quadkeys is gradual. This is expected because the isochrone boundaries centered on adjacent quadkeys largely overlap.
+We provide features that refer to isochrone boundaries centered on a quadkey. For example, `poi_is_restaurant_count_qk_isochrone_walk_10m` gives the number of restaurants within an area reachable via a 10-minute walk from the center of a quadkey. This feature is computed by aggregating data (restaurants) within a boundary (the 10-minute walk isochrone), centered on the pertinent quadkey. In the diagram above, the value of `poi_is_restaurant_count_qk_isochrone_walk_10m` for quadkey `0231301203133331001` (outlined in yellow)  is `3`, because there are 3 restaurants (blue dots) that fall within the quadkey’s 10-minute walk isochrone (shaded in green).
+
+If you were to visualize `poi_is_restaurant_count_qk_isochrone_walk_10m` on a map, you’d notice that each quadkey/tile has its own feature value, and that the change in feature values between adjacent quadkeys is gradual. This is expected because the isochrone boundaries centered on adjacent quadkeys largely overlap.
 
 # Working with IggyEnrich
 
