@@ -1,0 +1,36 @@
+name: 'Push'
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'home/**'
+      - 'open-data/**'
+      - 'pages/**'
+      - 'reference/**'
+
+jobs:
+  push_updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Package contents
+        run: yarn rollup
+
+      - name: Push docs to askiggy/iggy-docs
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'dist'
+          destination-github-username: 'askiggy'
+          destination-repository-name: 'iggy-docs'
+          user-email: mick+iggybot@askiggy.com
+          target-branch: main
+          target-directory: docs
+          commit-message: 'Content update from $REPOSITORY_URL@commit'

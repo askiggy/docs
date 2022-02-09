@@ -6,11 +6,7 @@ const config = {
   input: pkg.source,
   plugins: [
     del({ targets: ['dist/*'] }),
-    copy({
-      targets: [
-        { src: pkg.files, dest: 'dist' },
-      ]
-    })
+    copy({ targets: [ { src: pkg.files, dest: 'dist' } ] })
   ]
 };
 

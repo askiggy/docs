@@ -11,14 +11,11 @@
   "source": "index.js",
   "module": "dist/index.esm.js",
   "files": [
-    "categories",
-    "datasets",
     "guides",
     "home",
     "open-data",
     "pages",
     "reference",
-    "images",
     "ignore.json"
   ],
   "publishConfig": {
