@@ -13,9 +13,9 @@ At Iggy, we think about location-related features in terms of **boundaries**, da
 
 ## Boundaries
 
-Many data sets have location fields that link a row of data to a real place on Earth. Depending on the particular location field, that may be a relatively general place (e.g. a **metro area** or **county**) or a very specific place (e.g. a **parcel** or **address**). Traditionally, some of the challenge in dealing with location data involves conversion from specific to general places. For example, a dataset may have a field for **address**. But the available economic data only comes at the **county** level. How to link from the **address** to the relevant **county**, in order to add features from the economic dataset?
+Many data sets have location fields that link a row of data to a real place on Earth. Depending on the particular location field, that may be a relatively general place (e.g. a **metro area** or **county**) or a very specific place (e.g. a **quadkey** or **address**). Traditionally, some of the challenge in dealing with location data involves conversion from specific to general places. For example, a dataset may have a field for **address**. But the available economic data only comes at the **county** level. How to link from the **address** to the relevant **county**, in order to add features from the economic dataset?
 
-We use the term **boundary** to describe the geographic area over which some data is aggregated. Iggy pre-aggregates features to boundary levels ranging from general (**metro area**) to specific (**parcel**) so that users can pull data at exactly the level they need. For example, if your data set includes a **zip code** field, Iggy provides features that have been pre-aggregated at the **zip code** level like **count of restaurants per capita** within each zip.
+We use the term **boundary** to describe the geographic area over which some data is aggregated. Iggy pre-aggregates features to boundary levels ranging from general (**metro area**) to specific (**quadkey**) so that users can pull data at exactly the level they need. For example, if your data set includes a **zip code** field, Iggy provides features that have been pre-aggregated at the **zip code** level like **count of restaurants per capita** within each zip.
 
 Currently Iggy provides features pertaining to the following boundaries, from general to specific:
 
@@ -25,9 +25,9 @@ Currently Iggy provides features pertaining to the following boundaries, from ge
 * `zipcode` – Zip Code, identified by 5-digit zip code
 * `census_tract` – Census Tract, identified by 11-digit census tract GEOID
 * `cbg` – Census Block Group, identified by 12-digit census block group GEOID
-* `isochrone_walk_10m` – 10-min Walk Isochrone, identified by local parcel ID
+* `qk_isochrone_walk_10m` – 10-min Walk Isochrone, identified by zoom-19 quadkey identifier
 
-The most fine-grained boundary type we currently offer is the **10-min walk isochrone**, which is the boundary that encompasses the walkable area within 10 min of a parcel or address. By providing features aggregated at this fine-grained level, users with addresses or geographic coordinates can add hyper-local features to their models.
+The most fine-grained boundary type we currently offer is the **10-min walk isochrone**, which is the boundary that encompasses the walkable area within 10 min of a zoom 19 quadkey (a map file with side length ~75m). By providing features aggregated at this fine-grained level, users with addresses or geographic coordinates can add hyper-local features to their models.
 
 ## Data Sources
 
