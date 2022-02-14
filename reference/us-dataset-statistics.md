@@ -23,11 +23,11 @@ order: 2
 
 # Where We Aggregate
 
-## Parcels and 10-Minute Walk Areas
+## Quadkeys and 10-Minute Walk Areas
 
-Iggy has data for 150 million parcels across the United States (including Puerto Rico, the Virgin Islands, and the Northern Mariana Islands), covering  7.7 million square kilometers. We generate summary statistics for the types of features described above within a 10 minute walk of each parcel.
+We use quadkeys (see ["What is a quadkey?"](./faq.md#what-is-a-quadkey?)) as the smallest boundary/unit of analysis in our datasets. Each of these quadkeys (at zoom level 19) represents a tile on the Earth's surface with a side length of roughly 75m. We generate quadkey data across the United States (including Puerto Rico, the Virgin Islands, and the Northern Mariana Islands), covering  7.7 million square kilometers. We generate summary statistics for the types of features described above within a 10 minute walk of each quadkey.
 
-For example, the field `public_park_count` tells you how many parks open to the public are within a 10 minute walk of a given parcel in our `unified_isochrone_walk_10m_*` table.
+For example, the field `public_park_count` tells you how many parks open to the public are within a 10 minute walk of a given quadkey in our `<metro>_qk_isochrone_walk_10m_*` tables.
 
 [Jump to “How We Aggregate”](#how-we-aggregate) for more details.
 
