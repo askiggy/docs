@@ -73,7 +73,7 @@ create table <project>.<dataset>.<new_table> as (
 
 The ACS data we provide through Iggy refers to the most recently published 5-year estimates (currently 2014-2019). The data is collected over 5 years. The advantages of [using 5-year estimates rather than 1-year estimates](https://www.census.gov/programs-surveys/acs/guidance/estimates.html) is improved statistical reliability, and coverage of geographic boundaries with small sample sizes.
 
-## Where do household income and hose value data come from?
+## Where do household income and house value data come from?
 
 Household income and house value data come from the ACS.
 
