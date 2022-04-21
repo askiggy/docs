@@ -183,7 +183,7 @@ We use the Iggy Ontology to categorize places in the poi data source. The ontolo
   * Recycling collection and processing centers, and auto or metal salvage
   * Examples: Green Recovery Recycling, Fulton Auto Salvage, Montgomery County Solid Waste District
 * `restaurant`
-  * Full -service, limited-service, and self-service restaurants including cafeterias, buffets, and snack bars
+  * Full-service, limited-service, and self-service restaurants including cafeterias, buffets, and snack bars
   * Examples: China King, Trent City Pizzeria, Heavenly Hot Dogs, Toby's Supper Club
 * `sightseeing_transportation`
   * Businesses that provide transportation for land or water  *based sightseeing
