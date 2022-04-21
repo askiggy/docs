@@ -48,6 +48,6 @@ We generate “summary” statistics within each of the boundary types described
 
 * Counts of features
 * Per capita counts of features
-* For water features and park land, we provide the intersecting area. For instance, `state_park_intersecting_area_in_sqkm` would tell you how much land area is covered by state parks within the given area (ex. Within a specific county). For convenience, we also provide the percentage of the total area covered. In this example, the field would be called `state_park_pct_area_intersecting_boundary`.
+* For water features and park land, we provide the intersecting area. For instance, `state_park_intersecting_area_in_sqkm` would tell you how much land area is covered by state parks within the given area (e.g. within a specific county). For convenience, we also provide the percentage of the total area covered. In this example, the field would be called `state_park_pct_area_intersecting_boundary`.
 * Total length of coastline within the boundary, as `coast_intersecting_length_in_km`.
 * For convenience, we also provide booleans flags for water and coastline, so you can refer to `lake_intersects` to see if a particular area contains any lakes, for instance.

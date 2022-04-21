@@ -152,7 +152,7 @@ We use the Iggy Ontology to categorize places in the poi data source. The ontolo
 * `dry_cleaning_and_laundry`
   * Dry cleaning and laundry services
   * Examples: Big Springs Laundry, Champs Cleaners, Sam's Custom Cleaners
-fueling_station
+* `fueling_station`
   * Gas and electric vehicle fueling stations and other petroleum products wholesalers
   * Examples: Amoco, Red Bank Municipal Court Charting Station, Speedy Cafe
 * `gambling`
@@ -183,7 +183,7 @@ fueling_station
   * Recycling collection and processing centers, and auto or metal salvage
   * Examples: Green Recovery Recycling, Fulton Auto Salvage, Montgomery County Solid Waste District
 * `restaurant`
-  * Full  *service, limited  *service, and self  *service restaurants including cafeterias, buffets, and snack bars
+  * Full-service, limited-service, and self-service restaurants including cafeterias, buffets, and snack bars
   * Examples: China King, Trent City Pizzeria, Heavenly Hot Dogs, Toby's Supper Club
 * `sightseeing_transportation`
   * Businesses that provide transportation for land or water  *based sightseeing
