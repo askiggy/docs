@@ -25,7 +25,7 @@ order: 2
 
 ## Quadkeys and 10-Minute Walk Areas
 
-We use quadkeys (see ["What is a quadkey?"](./faq#what-is-a-quadkey?)) as the smallest boundary/unit of analysis in our datasets. Each of these quadkeys (at zoom level 19) represents a tile on the Earth's surface with a side length of roughly 75m. We generate quadkey data across the United States (including Puerto Rico, the Virgin Islands, and the Northern Mariana Islands), covering  7.7 million square kilometers. We generate summary statistics for the types of features described above within a 10 minute walk of each quadkey.
+We use quadkeys (see ["What is a quadkey?"](./faq#what-is-a-quadkey)) as the smallest boundary/unit of analysis in our datasets. Each of these quadkeys (at zoom level 19) represents a tile on the Earth's surface with a side length of roughly 75m. We generate quadkey data across the United States (including Puerto Rico, the Virgin Islands, and the Northern Mariana Islands), covering  7.7 million square kilometers. We generate summary statistics for the types of features described above within a 10 minute walk of each quadkey.
 
 For example, the field `public_park_count` tells you how many parks open to the public are within a 10 minute walk of a given quadkey in our `<metro>_qk_isochrone_walk_10m_*` tables.
 
